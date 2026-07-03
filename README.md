@@ -49,6 +49,9 @@ The final Gated Attention U-Net configuration is independently trained and evalu
 - scikit-image
 - matplotlib
 
+## Reproducibility
+
+All experimental results reported in the manuscript can be reproduced directly from the provided notebooks. The pretrained RICE1 Gated Attention U-Net checkpoint is also included for inference and verification purposes.
 
 ## Citation
 Raj Gaurav Mishra, Anuj Kumar, Sangeeta Pant, Ketan Kotecha, Ajith Abraham, Cloud Removal from Satellite Imagery using a Lightweight Gated Attention U-Net.
