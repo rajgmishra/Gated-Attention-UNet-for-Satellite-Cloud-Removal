@@ -18,5 +18,41 @@ Experiments are performed using the publicly available RICE dataset.
 Dataset Link:
 https://www.kaggle.com/datasets/shubhank001/rice-remote-sensing-images-for-cloud-removal
 
+## Experiments
 
-Notebook:
+### RICE1 Evaluation
+
+Notebook: 01_RICE1_Attention_UNet_Ablation.ipynb
+
+Includes:
+
+- Modified U-Net baseline
+- No Attention variant
+- Light Attention U-Net
+- Gated Attention U-Net
+- Multi-seed ablation study
+
+
+### RICE2 Evaluation
+
+Notebook: 02_RICE2_Gated_Attention_UNet_Evaluation.ipynb
+
+
+The final Gated Attention U-Net configuration is independently trained and evaluated on RICE2 using the same experimental settings.
+
+## Requirements
+
+- Python 3.x
+- PyTorch
+- torchvision
+- numpy
+- scikit-image
+- matplotlib
+
+
+## Citation
+Raj Gaurav Mishra, Anuj Kumar, Sangeeta Pant, Ketan Kotecha, Ajith Abraham, Cloud Removal from Satellite Imagery using a Lightweight Gated Attention U-Net.
+
+## License
+
+MIT License
